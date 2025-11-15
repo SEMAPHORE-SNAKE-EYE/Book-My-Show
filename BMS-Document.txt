@@ -432,7 +432,7 @@ sudo systemctl restart jenkins
 
 Switch to Jenkins user
 sudo -su jenkins
-aws eks update-kubeconfig --name kastro-eks --region us-east-1
+aws eks update-kubeconfig --name kartik-eks --region us-east-1
 
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
@@ -816,5 +816,6 @@ Click on Dashboards in the left pane, you can see both the dashboards you have j
 Final:
 
 Delete all the resources created
+
 
 
