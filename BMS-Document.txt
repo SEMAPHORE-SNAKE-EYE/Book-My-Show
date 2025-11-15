@@ -602,7 +602,7 @@ Move console libraries to the Prometheus configuration directory
 sudo mv consoles/ console_libraries/ /etc/prometheus/
 
 Move the example of the main Prometheus configuration file
-sudo mv prometheus.yml /etc/prometheus/prometheus.yml
+sudo mv prometheus.yml/etc/prometheus/prometheus.yml
 
 Set the correct ownership for the /etc/prometheus/ and data directory
 sudo chown -R prometheus:prometheus /etc/prometheus/ /data/
@@ -816,6 +816,7 @@ Click on Dashboards in the left pane, you can see both the dashboards you have j
 Final:
 
 Delete all the resources created
+
 
 
 
